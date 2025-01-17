@@ -13,21 +13,21 @@
     <div class="card-container">
         <!-- Card 1 -->
         <div class="card">
-            <img src="emp.jpg" alt="Card Image" class="card-image">
+            <img src="Emp_Logo.jpg" alt="Card Image" class="card-image">
             <div class="card-content">
                 <h3 class="card-title">Employee Login</h3>
                 <p class="card-text">For Employee login click below button of in this card.</p>
-                <button class="card-button">Login Now</button>
+                <a href="emp/Emp_Login.php"><button class="card-button">Login Now</button></a>
             </div>
         </div>
         
         <!-- Card 2 -->
         <div class="card">
-            <img src="hr.jpg" alt="Card Image" class="card-image">
+            <img src="Hr_Logo.jpg" alt="Card Image" class="card-image">
             <div class="card-content">
                 <h3 class="card-title">HR Login</h3>
                 <p class="card-text">For Human Resourse login click below button of in this card.</p>
-                <button class="card-button">Login Now</button>
+                <a href="hr/Hr_Login.php"><button class="card-button">Login Now</button></a>
             </div>
         </div>
     </div>
