@@ -1,35 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Employee Leave Manegement System</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>
-        Employee Leave Management System
-    </h1>
-    <div class="card-container">
-        <!-- Card 1 -->
-        <div class="card">
-            <img src="Emp_Logo.jpg" alt="Card Image" class="card-image">
-            <div class="card-content">
-                <h3 class="card-title">Employee Login</h3>
-                <p class="card-text">For Employee login click below button of in this card.</p>
-                <a href="emp/Emp_Login.php"><button class="card-button">Login Now</button></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Employee Leave Management System</title>
+</head>
+<body>
+
+    <?php
+        include 'Header.php';
+    ?>
+
+    <main class="main-container">
+        <h1>Welcome to the Employee Leave Management System</h1>
+        <p>Streamline your leave requests and approvals with ease.</p>
+
+        <div class="card-container">
+            <div class="card">
+                <h2>Employee Login</h2>
+                <p>Access your leave records and apply for leave easily.</p>
+                <a href="#">Login</a>
+            </div>
+            <div class="card">
+                <h2>HR Login</h2>
+                <p>Manage employee leave requests and generate reports.</p>
+                <a href="#">Login</a>
             </div>
         </div>
-        
-        <!-- Card 2 -->
-        <div class="card">
-            <img src="Hr_Logo.jpg" alt="Card Image" class="card-image">
-            <div class="card-content">
-                <h3 class="card-title">HR Login</h3>
-                <p class="card-text">For Human Resourse login click below button of in this card.</p>
-                <a href="hr/Hr_Login.php"><button class="card-button">Login Now</button></a>
-            </div>
-        </div>
-    </div>
-  </body>
+        <section class="info-section">
+            <h3>Why Choose Our System?</h3>
+            <p>
+                Our Employee Leave Management System simplifies leave tracking, improves communication between employees and HR, and ensures a smooth workflow. 
+                It is designed to save time and increase efficiency for your organization.
+            </p>
+        </section>
+  </main>
+</body>
 </html>
