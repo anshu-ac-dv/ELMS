@@ -20,12 +20,12 @@
             <div class="card">
                 <h2>Employee Login</h2>
                 <p>Access your leave records and apply for leave easily.</p>
-                <a href="#">Login</a>
+                <a href="Employee_Login.php">Login</a>
             </div>
             <div class="card">
                 <h2>HR Login</h2>
                 <p>Manage employee leave requests and generate reports.</p>
-                <a href="#">Login</a>
+                <a href="HR_Login.php">Login</a>
             </div>
         </div>
         <section class="info-section">
