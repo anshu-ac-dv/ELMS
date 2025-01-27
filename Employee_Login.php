@@ -21,5 +21,11 @@
         </form>
         <p>Forgot your password? <a href="#">Click here</a></p>
     </div>
+
+    <?php
+
+        
+
+    ?>
 </body>
 </html>
