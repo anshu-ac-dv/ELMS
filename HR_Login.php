@@ -15,7 +15,7 @@
     <div class="login-container">
         <h1>HR Login</h1>
         <form action="#" method="POST">
-        <input type="text" name="employee-id" placeholder="Employee ID" required>
+        <input type="text" name="employee-id" placeholder="HR ID" required>
         <input type="password" name="password" placeholder="Password" required>
         <button type="submit">Login</button>
         </form>
