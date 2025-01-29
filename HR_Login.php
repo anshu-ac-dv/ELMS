@@ -3,7 +3,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {   
         $username = $_POST["username"];
         $password = $_POST["password"];
-        $sql = "SELECT * FROM 'hr' where username='$username' AND password='$password'";
+        $sql = "SELECT * FROM hr_login where username='$username' AND password='$password'";
         $result = mysqli_query($con,$sql);
         if ($result) {
             header ("location: Hr_Dashboard.php");
