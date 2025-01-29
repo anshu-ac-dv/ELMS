@@ -1,4 +1,5 @@
 <?php
+
     include 'Connection.php';
     if ($_SERVER["REQUEST_METHOD"] == "POST") {   
         $username = $_POST["username"];
@@ -6,7 +7,9 @@
         $sql = "SELECT * FROM hr_login where username='$username' AND password='$password'";
         $result = mysqli_query($con,$sql);
         if ($result) {
-            header ("location: Hr_Dashboard.php");
+            session_start();
+            $_SESSION['username'];
+            header ("location: Admin/Hr_Dashboard.php");
         }
         else {
             echo("Error");
