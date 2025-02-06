@@ -7,7 +7,7 @@
 </head>
 <body>
 <header>
-    <div class="logo">Welcome || ELMS</div>
+    <div class="logo">Welcome || Employee Leave Management System</div>
     <nav>
       <ul>
         <li><a href="Hr_Dashboard.php">Home</a></li>
