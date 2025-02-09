@@ -1,3 +1,10 @@
+<?php
+
+    if () {
+        
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,7 +60,7 @@
 
     <div class="container">
         <h2>Add Employee</h2>
-        <form action="#" method="post">
+        <form action="Add_Employee.php" method="post">
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name" required>
 
