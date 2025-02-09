@@ -1,7 +1,13 @@
 <?php
 
-    if () {
-        
+    if (isset($_POST['submit'])) {
+        include "Connection.php";
+        $name = $_POST["name"];
+        $email = $_POST["email"];
+        $position = $_POST["position"];
+        $department = $_POST["department"];
+
+        sql = 
     }
 
 ?>
@@ -82,7 +88,7 @@
             <label for="joining_date">Joining Date</label>
             <input type="date" id="joining_date" name="joining_date" required>
 
-            <button type="submit">Add Employee</button>
+            <button type="submit" name="submit">Add Employee</button>
         </form>
     </div>
     
