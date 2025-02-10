@@ -1,14 +1,25 @@
 <?php
 
     if (isset($_POST['submit'])) {
-        include "Connection.php";
+        include 'Connection.php';
         $name = $_POST["name"];
         $email = $_POST["email"];
         $position = $_POST["position"];
         $department = $_POST["department"];
 
-        sql = 
+        $sql = "INSERT INTO `employee_details` (`Name`, `Email`, `Position`, `Department`) VALUES ('$name', '$email', '$position', '$department')";
+        $result = mysqli_query($con,$sql);
+
+        if ($result) {
+            echo "Registration Successful !";
+            $con->close();
+        } else {
+            echo "Something Error Please Chcek You Document And Try Again";
+        }
+        
+        
     }
+
 
 ?>
 <!DOCTYPE html>
@@ -84,13 +95,15 @@
                 <option value="Finance">Finance</option>
                 <option value="Marketing">Marketing</option>
             </select>
-
-            <label for="joining_date">Joining Date</label>
-            <input type="date" id="joining_date" name="joining_date" required>
-
+            
             <button type="submit" name="submit">Add Employee</button>
         </form>
+
+        <?php
+                
+            ?>
     </div>
+
     
 </body>
 </html>
